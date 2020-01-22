@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  22 JAN 2020 04:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  22 JAN 2020 04:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -150,6 +150,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 38.
 
+Underfull \hbox (badness 10000) in paragraph at lines 48--54
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 56--68
 
  []
@@ -160,13 +165,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--68
 Here is how much of TeX's memory you used:
  1603 strings out of 492167
  22132 string characters out of 6131557
- 100789 words of memory out of 5000000
+ 99789 words of memory out of 5000000
  5983 multiletter control sequences out of 15000+600000
  7639 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,4n,31p,925b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,4n,31p,925b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/run/media/solom/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.pdf" (2 pages, 82329 bytes).
+Output written on "/run/media/solom/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.pdf" (2 pages, 82717 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
