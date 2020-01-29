@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  22 JAN 2020 04:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  29 JAN 2020 03:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -102,15 +102,15 @@ LaTeX Font Info:    ... okay on input line 13.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(21.68121pt, 751.60756pt, 21.68121pt)
+* h-part:(L,W,R)=(34.1433pt, 546.0084pt, 34.1433pt)
+* v-part:(T,H,B)=(34.1433pt, 726.6834pt, 34.1433pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=505.89pt
-* \textheight=751.60756pt
-* \oddsidemargin=-18.06749pt
-* \evensidemargin=-18.06749pt
-* \topmargin=-87.58878pt
+* \textwidth=546.0084pt
+* \textheight=726.6834pt
+* \oddsidemargin=-38.1267pt
+* \evensidemargin=-38.1267pt
+* \topmargin=-75.1267pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -165,13 +165,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--68
 Here is how much of TeX's memory you used:
  1603 strings out of 492167
  22132 string characters out of 6131557
- 99789 words of memory out of 5000000
+ 100778 words of memory out of 5000000
  5983 multiletter control sequences out of 15000+600000
  7639 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,4n,31p,925b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/run/media/solom/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.pdf" (2 pages, 82717 bytes).
+Output written on "/run/media/solom/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.pdf" (2 pages, 82938 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
