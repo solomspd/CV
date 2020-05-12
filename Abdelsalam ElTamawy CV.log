@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  6 FEB 2020 00:35
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2020.5.5)  12 MAY 2020 23:58
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"Abdelsalam ElTamawy CV.tex"
-(/run/media/solom/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.tex
+**"/data/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.tex"
+(/data/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.tex
 LaTeX2e <2019-10-01> patch level 1
-(/run/media/solom/Abdo/Abdo/Abdo/CV/resume.cls
+(/data/Abdo/Abdo/Abdo/CV/resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
@@ -78,7 +78,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen111
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks16
-) (/run/media/solom/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.aux)
+) (/data/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.aux)
 \openout1 = `"Abdelsalam ElTamawy CV.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -89,15 +89,17 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -139,37 +141,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 26.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 38.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--66
+Underfull \hbox (badness 10000) in paragraph at lines 56--68
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/run/media/solom/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.aux) ) 
+] [2] (/data/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.aux) ) 
 Here is how much of TeX's memory you used:
- 1603 strings out of 492167
- 22132 string characters out of 6131557
- 99778 words of memory out of 5000000
- 5983 multiletter control sequences out of 15000+600000
- 7639 words of font info for 27 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 50i,4n,31p,890b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/run/media/solom/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.pdf" (2 pages, 82953 bytes).
-PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1597 strings out of 492483
+ 22058 string characters out of 6134980
+ 105778 words of memory out of 5000000
+ 6094 multiletter control sequences out of 15000+600000
+ 6427 words of font info for 29 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 50i,4n,31p,914b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on /data/Abdo/Abdo/Abdo/CV/Abdelsalam ElTamawy CV.xdv (2 pages, 41672 bytes).
