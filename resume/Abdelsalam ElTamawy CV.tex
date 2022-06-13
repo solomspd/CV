@@ -1,4 +1,5 @@
 \documentclass{resume}
+\usepackage{hyperref}
 
 \usepackage[left=12mm,top=12mm,right=12mm,bottom=12mm]{geometry} % Document margins
 
@@ -8,14 +9,14 @@
 
 \name{Abdelsalam ElTamawy}
 \address{30, ElTayaran St., Nasr City, Cairo, Egypt}
-\address{(+02)01003435365 \\ solomspd@aucegypt.edu \\ github.com/solomspd \\ linkedin.com/in/abdelsalam-et/}
+\address{\href{tel:+0201003435365}{(+02)01003435365} \\ \href{mailto:solomspd@aucegypt.edu}{solomspd@aucegypt.edu} \\ \href{https://github.com/solomspd}{github.com/solomspd} \\ \href{https://linkedin.com/in/abdelsalam-et}{linkedin.com/in/abdelsalam-et/}}
 
 \begin{document}
 \begin{small}
 	
 	\begin{rSection}{Education}
 		{\bf The American University in Cairo (AUC)} \hfill {\em 2017-2022} \\
-		BSc in Computer Engineering. GPA: 3.6/4.0\\
+		BSc in Computer Engineering. Graduated with High Honors. GPA: 3.6/4.0\\
 		{\bf International School for Elite Education (ISEE)} \hfill {\em 2011-2017}\\
 		IGCSE. Graduated with high honors.
 	\end{rSection}
@@ -23,7 +24,7 @@
 	\begin{rSection}{Technical Skills}
 		\begin{itemize}
 			\itemsep-0.4em
-			\item Versed in C++(35k), Latex(20k), Python(15k), Verilog(5k), Java(3k), kotlin(2k), rust(1k), dart(1k), shell(500), Javascript(400), SQL(300), MongoDB(200), PHP(100), CSS(100), HTML(150) and Ruby(100). Numbers indicate lines of code written in language.
+			\item Versed in C++(35k), Latex(25k), Python(25k), Verilog(5k), Java(3k), kotlin(2k), rust(1k), dart(1k), Javascript(1k), shell(500) and SQL(300). Numbers indicate lines of code written in language.
 			\item Experienced in machine learning; built multiple models that are used in production.
 			\item Experienced with embedded development; built applications including POV display using STM32 and ESP MCUs.
 			\item Experienced with Git version control; used it to collaborate and manage dozens of project repositories.
@@ -35,9 +36,20 @@
 		\end{itemize}
 	\end{rSection}
 
+	\begin{rSection}{Projects}
+		{\bf Machine learning based decompiler} \hfill {\em 2021-2022} \\
+		Completed bachelor thesis on creating a transformer based decompiler targeting android applications. Uses a novel tree graph generator to produce abstract syntax tree code representation. Meant to be an effective forensic tool for countering android based malware. \\
+		{\bf Persistance of vision display} \hfill {\em 2021} \\
+		Created a persistance of vision display composed of a high speed rotating blade and the associated embedded system fullfilling the millisecond timing constraints. Featured an embedded web server to easily change message. \\
+		{\bf Distance sensor from scratch} \hfill {\em 2021} \\
+		Built an ultrasonic distance sensor from scratch using an STM32 microprocessor. Reverse engineered market boards to create more accurate sensor. \\
+		{\bf RISC-V microarchitecture} \hfill {\em 2019} \\
+		Implemented 6 pipeline deep RISC-V microarchitecture on an FPGA in verilog. Fulfilled specfiication requiements. \\
+	\end{rSection}
+
 	\begin{rSection}{Experience}
 		{\bf Undergraduate teaching assistant, Assembly \& Computer Organization, AUC} \hfill {\em 2021-2022} \\
-		Worked as an undergraduate teaching assistant for assembly and computer organization course. Explained instruction set architecture, ASM and caching concepts to students. \\
+		Worked as an undergraduate teaching assistant for assembly and computer organization course. Explained instruction set architecture, \verb|ASM| and caching concepts to students. \\
 		{\bf Lead research intern, Computer Science and Engineering Department, AUC} \hfill {\em 2020-2021} \\
 		Lead a team of 4 to create an automated process that builds application specific RISC-V based CPU implementations; Written mostly in Python and Verilog \\
 		{\bf Undergraduate teaching assistant, Computer Architecture, AUC} \hfill {\em 2020-2021} \\
@@ -52,7 +64,6 @@
 		Worked as an undergraduate teaching assistant for the second level of computer engineering; helping students understand programming concepts; Also maintained ACM scoreboard used by university. \\
 	\end{rSection}
 
-	\pagebreak
 	\begin{rSection} {Extracurricular Activities}
 		{\bf Recreational Scuba Diver, Scuba Diving, Independent} \hfill {\em 2009-present}\\
 		Licensed 2-star CMAS scuba diver; preformed over 100 scuba dives in the Red Sea.\\
@@ -66,12 +77,13 @@
 		Photographed dozens of events. Published over a dozen photographs in the University newspaper.\\
 		{\bf Camper, NASA Camp, Independent} \hfill {\em 2015}\\
 		Attended NASA camp in Atlanta, USA. Won “Best Camper” award.\\
-		
 	\end{rSection}
 
 	\begin{rSection}{Competitions}
+		{\bf Participant, Hacktrick hackathon, DELL EMC} \hfill {\em 2022} \\
+		Build a reiforcment learning based model to compete in a series of agent material pipeline optimization challenges. \\
 		{\bf Participant, International Collegiate Programming Contest, AUC} \hfill {\em 2019} \\
-		Entered the local ICPC ACM after gaining experience and practice in competitive programing; achieving $9^{th}$ place. Was the youngest participant. \\
+		Entered the local ICPC ACM after gaining experience and practice in competitive programing. Was the youngest participant. \\
 		{\bf Participant, Code Geist hackathon, Sefr Wahed} \hfill {\em 2019} \\
 		Created an app and it's pitch in 48 hours with a team of 4; developed an environment centric mobile application meant to encourage and reward individuals for collecting litter.\\
 		{\bf ROV electronics member, Robotics Club, AUC} \hfill {\em 2017-2019} \\
