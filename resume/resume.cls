@@ -27,7 +27,7 @@
 \newlist{techlist}{itemize*}{1}
 \setlist[techlist]{label=,nosep}
 
-\linespread{1.05}
+% \linespread{1.05}
 \pagestyle{empty}
 \pagenumbering{gobble}
 
@@ -60,7 +60,7 @@
 	\medskip
 	{\bf \large #1}
 	\smallskip
-	\hrule 
+	\hrule height 1mm
 	\medskip
 }{}
 
