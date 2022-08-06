@@ -72,10 +72,10 @@
 
 \newenvironment{rfloat}[1]{
 	\medskip
-	\hrule
+	\hrule height 0.5mm
 	\smallskip
 	{\bf {\large #1} {\small\faChevronRight}}
 }{
 	\smallskip
-	\hrule
+	\hrule height 0.5mm
 }
