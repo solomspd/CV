@@ -10,18 +10,19 @@
 \usepackage{outlines}
 \usepackage{fontawesome}
 \usepackage{xcolor}
-\usepackage{fancybox}
 \usepackage{multicol}
 \usepackage{dashrule}
 \usepackage{ifthen}
 \usepackage{tcolorbox}
 \usepackage[scaled]{helvet}
 \usepackage[T1]{fontenc}
+\usepackage{dirtytalk}
 
 \renewcommand{\familydefault}{\sfdefault} 
 
 
-\setlist[itemize]{leftmargin=*,label=\color{accent}\tiny\faChevronRight,labelsep=1mm,nosep}
+\setlist[itemize]{leftmargin=*,label=\color{accent}\scriptsize\faChevronRight,labelsep=1mm,nosep}
+\setlist[itemize,2]{before=\footnotesize,label=\color{accent}\footnotesize\faCaretRight,nosep,after=\smallskip}
 \newlist{techtag}{itemize*}{1}
 \setlist[techtag]{label=,before=\smallskip,after=\smallskip,nosep}
 \newlist{techlist}{itemize*}{1}
@@ -54,7 +55,8 @@
 \newcommand{\iconin}[1]{\large\textcolor{accent}#1}
 \newcommand{\divider}{{\color{gray}\hdashrule[0.5ex]{\linewidth}{0.6pt}{0.5ex}}}
 \newcommand{\techitem}[1]{{\techbox{\small#1}}}
-\newcommand{\calstick}[1]{\hfill \makebox[85pt][l]{\iconanot{\faCalendar}{\em #1}}}
+\newcommand{\calstick}[1]{\hfill \makebox[80pt][l]{\iconanot{\faCalendar}{\em #1}}}
+\newcommand{\gitsep}{\hspace{0em}}
 
 \newenvironment{rsection}[1]{
 	\medskip
@@ -76,6 +78,7 @@
 	\smallskip
 	{\bf {\large #1} {\small\faChevronRight}}
 }{
+
 	\smallskip
 	\hrule height 0.5mm
 }
