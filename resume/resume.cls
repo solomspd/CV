@@ -57,9 +57,10 @@
 \newcommand{\techitem}[1]{{\techbox{\small#1}}}
 \newcommand{\calstick}[1]{\hfill \makebox[80pt][l]{\iconanot{\faCalendar}{\em #1}}}
 \newcommand{\gitsep}{\hspace{0em}}
+\newcommand{\lang}[1]{\techitem{\makebox[70pt][c]{#1}}}
 
-\newenvironment{rsection}[1]{
-	\medskip
+\newenvironment{rsection}[2]{
+	\ifthenelse{\equal{#2}{smallpreskip}}{\smallskip}{\medskip}
 	{\bf \large #1}
 	\smallskip
 	\hrule height 1mm

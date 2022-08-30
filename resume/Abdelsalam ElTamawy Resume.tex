@@ -15,9 +15,10 @@
 			\href{https://linkedin.com/in/abdelsalam-et}{\iconanot{\faLinkedin}{/in/abdelsalam-et}} & \href{https://solom.dev}{\iconanot{\faGlobe}{solom.dev}}
 		\end{tabular}
 	}
+
 \end{tabularx}
 
-\begin{rsection}{\MakeUppercase{about me} \hfill \href{https://www.youtube.com/watch?v=8wwv_bj3Hvc}{Self Introduction Video \iconin{\faYoutubePlay}}}
+\begin{rsection}{\MakeUppercase{about me} \hfill \href{https://www.youtube.com/watch?v=8wwv_bj3Hvc}{Self Introduction Video \iconin{\faYoutubePlay}}}{}
 	As a highly motivated computer engineer, I am confident in my skills in software engineering and academic research proving valuable to any team.
 	% I am a highly motivated computer engineer seeking to purposefully contribute who leads by example.
 	Seeking to Create tailored solutions to novel problems.
@@ -25,7 +26,7 @@
 
 \begin{minipage}[t]{0.54\textwidth}
 
-	\begin{rsection}{\MakeUppercase{education}}
+	\begin{rsection}{\MakeUppercase{education}}{smallpreskip}
 
 		\begin{rcontent}{The American University in Cairo (AUC)}{2017-2022}{Cairo}
 			\begin{itemize}
@@ -42,7 +43,7 @@
 
 	\end{rsection}
 
-	\begin{rsection}{\MakeUppercase{selected projects}}
+	\begin{rsection}{\MakeUppercase{selected projects}}{}
 
 		\begin{rcontent}{\href{https://github.com/solomspd/senior-project}{Machine learning based decompiler \gitsep \iconin{\faGithub}}}{2021-2022}{}
 		\begin{techtag}
@@ -127,7 +128,7 @@
 \hfill
 \begin{minipage}[t]{0.44\textwidth}
 
-	\begin{rsection}{\MakeUppercase{experience}}
+	\begin{rsection}{\MakeUppercase{experience}}{smallpreskip}
 
 		\begin{rcontent}{Undergraduate teaching assistant}{}{AUC}
 			\begin{itemize}
@@ -174,7 +175,7 @@
 
 	\end{rsection}
 
-	\begin{rsection}{\MakeUppercase{extracurricular}}
+	\begin{rsection}{\MakeUppercase{extracurricular}}{}
 
 		\begin{rcontent}{ROV media head}{2017-2019}{AUC}
 			\begin{itemize}
@@ -202,7 +203,7 @@
 
 \begin{minipage}[t]{0.49\textwidth}
 
-	\begin{rsection}{\MakeUppercase{publications}}
+	\begin{rsection}{\MakeUppercase{publications}}{}
 
 		\begin{rcontent}{A Neural Generation Framework for Android Decompilation}{2022}{AAAI (pending)}
 			\begin{itemize}
@@ -227,23 +228,17 @@
 
 	\end{rsection}
 
-	\begin{rfloat}{\MakeUppercase{languages} (Lines of Code)}
-		\begin{techlist}
-			\item \techitem{Python(38k)}
-			\item \techitem{C++(35k)}
-			\item \techitem{\LaTeX(25k)}
-			\item \techitem{Verilog(5k)}
-			\item \techitem{Java(5k)}
-			\item \techitem{Kotlin(2k)}
-			\item \techitem{Rust(2k)}
-			\item \techitem{Dart(2k)}
-			\item \techitem{Javascript(2k)}
-			\item \techitem{Bash(1k)}
-			\item \techitem{SQL(1k)}
-		\end{techlist}
-	\end{rfloat}
+	\begin{rsection}{\MakeUppercase{languages} (Lines of Code)}{}
+		\renewcommand{\arraystretch}{1.25}
+		\begin{tabular}{ccc}
+			\lang{Python(38k)} & \lang{C++(35k)} & \lang{\LaTeX(25k)} \\
+			\lang{Verilog(5k)} & \lang{Java(5k)} & \lang{Kotlin(2k)} \\
+			\lang{Rust(2k)} & \lang{Dart(2k)} & \lang{Javascript(2k)} \\
+			\lang{Bash(1k)} & \lang{SQL(1k)} & \\
+		\end{tabular}
+	\end{rsection}
 
-	\begin{rsection}{\MakeUppercase{hobbies}}
+	\begin{rsection}{\MakeUppercase{hobbies}}{}
 
 		\begin{rcontent}{Recreational scuba diver}{}{}
 			\begin{itemize}
@@ -277,7 +272,7 @@
 \hfill
 \begin{minipage}[t]{0.49\textwidth}
 
-	\begin{rsection}{\MakeUppercase{competitions}}
+	\begin{rsection}{\MakeUppercase{competitions}}{}
 
 		\begin{rcontent}{HackTrick Hackathon}{2022}{DELL EMC}
 			\begin{itemize}
@@ -319,8 +314,13 @@
 			\item \techitem{Git VCS}
 			\item \techitem{Linux}
 			\item \techitem{Docker}
-			\item \techitem{English}
-			\item \techitem{Arabic}
+		\end{techlist}
+	\end{rfloat}
+
+	\begin{rfloat}{\MakeUppercase{languages}}
+		\begin{techlist}
+			\item \techitem{English (native)}
+			\item \techitem{Arabic (native)}
 		\end{techlist}
 	\end{rfloat}
 	
