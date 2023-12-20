@@ -44,8 +44,8 @@
 \definecolor{accent}{HTML}{0A3CCF}
 
 \newcommand{\boxpt}{3pt}
-\newtcbox{techbox}[1][accent]{
-	on line,fontupper=\color{#1},colframe=#1,colback=white,arc=4pt,
+\newtcbox{\techbox}[1][accent]{
+	on line,size=fbox,fontupper=\color{#1},colframe=#1,colback=white,arc=4pt,
 	boxsep=0pt,left=\boxpt,right=\boxpt,top=\boxpt,bottom=\boxpt,
 	boxrule=0.5pt,
 	before upper={\rule[-2pt]{0pt}{10pt}}
