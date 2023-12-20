@@ -67,10 +67,11 @@
 	\medskip
 }{}
 
-\newenvironment{rcontent}[3]{
+\newenvironment{rcontent}[4]{
 	\textbf{#1} \ifthenelse{\equal{#2}{}}{}{\calstick{#2}}
 
-	\ifthenelse{\equal{#3}{}}{}{\makebox[0.15\linewidth][l]{\iconanot{\faMapMarker}{#3}}\smallskip}
+	\ifthenelse{\equal{#3}{}}{}{\makebox[0.3\linewidth][l]{\iconanot{\faBuilding}{#3}}}
+	\ifthenelse{\equal{#4}{}}{}{\makebox[0.2\linewidth][l]{\iconanot{\faMapMarker}{#4}}\smallskip}
 }{}
 
 \newenvironment{rfloat}[1]{
