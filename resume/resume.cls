@@ -41,7 +41,7 @@
 
 \setlength\parindent{0pt}
 
-\definecolor{accent}{HTML}{0A3CCF}
+\definecolor{accent}{HTML}{0018A8}
 
 \newcommand{\boxpt}{3pt}
 \newtcbox{\techbox}[1][accent]{
