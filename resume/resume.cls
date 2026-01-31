@@ -17,8 +17,9 @@
 \usepackage[scaled]{helvet}
 \usepackage[T1]{fontenc}
 \usepackage{dirtytalk}
+\usepackage{xparse}
 
-\renewcommand{\familydefault}{\sfdefault} 
+\renewcommand{\familydefault}{\sfdefault}
 
 
 \setlist[itemize]{leftmargin=*,label=\color{accent}\scriptsize\faChevronRight,labelsep=1mm,nosep}
@@ -34,7 +35,7 @@
 
 \geometry{a4paper,
 	left={5mm},
-	top={5mm}, 
+	top={5mm},
 	right={5mm},
 	bottom={5mm}
 }
@@ -55,7 +56,7 @@
 \newcommand{\iconin}[1]{\large\textcolor{accent}#1}
 \newcommand{\divider}{{\color{gray}\hdashrule[0.5ex]{\linewidth}{0.6pt}{0.5ex}}}
 \newcommand{\techitem}[1]{{\techbox{\small#1}}}
-\newcommand{\calstick}[1]{\hfill \makebox[80pt][l]{\iconanot{\faCalendar}{\em #1}}}
+\newcommand{\calstick}[2][80pt]{\hfill \makebox[#1][l]{\iconanot{\faCalendar}{\em #2}}}
 \newcommand{\gitsep}{\hspace{0em}}
 \newcommand{\lang}[1]{\techitem{\makebox[70pt][c]{#1}}}
 
@@ -67,11 +68,11 @@
 	\medskip
 }{}
 
-\newenvironment{rcontent}[4]{
-	\textbf{#1} \ifthenelse{\equal{#2}{}}{}{\calstick{#2}}
+\NewDocumentEnvironment{rcontent}{O{80pt} O{\faBriefcase} m m m m}{
+	\textbf{#3} \ifthenelse{\equal{#4}{}}{}{\calstick[#1]{#4}}
 
-	\ifthenelse{\equal{#3}{}}{}{\makebox[0.3\linewidth][l]{\iconanot{\faBuilding}{#3}}}
-	\ifthenelse{\equal{#4}{}}{}{\makebox[0.2\linewidth][l]{\iconanot{\faMapMarker}{#4}}\smallskip}
+	\ifthenelse{\equal{#5}{}}{}{\makebox[0.55\linewidth][l]{\iconanot{#2}{#5}}}
+	\ifthenelse{\equal{#6}{}}{}{\makebox[0.2\linewidth][l]{\iconanot{\faMapMarker}{#6}}\smallskip}
 }{}
 
 \newenvironment{rfloat}[1]{

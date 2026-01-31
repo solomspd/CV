@@ -1,11 +1,11 @@
 \documentclass{resume}
 
-\newcommand{\email}{abdelsalam@solom.dev}
+\newcommand{\email}{solom@solom.dev}
 
 \begin{document}
 
 \begin{tabularx}{\textwidth}{X|r}
-	
+
 	{\LARGE\MakeUppercase{\bf Abdelsalam ElTamawy}}
 	% {\small\href{https://www.youtube.com/watch?v=8wwv_bj3Hvc}{Self Introduction Video \iconin{\faYoutubePlay}}}
 	&
@@ -13,23 +13,91 @@
 		\begin{tabular}{ll}
 			\href{mailto:\email}{\iconanot{\faEnvelope}{\email}} & \href{https://solom.dev}{\iconanot{\faGlobe}{solom.dev}} \\
 			\href{https://github.com/solomspd}{\iconanot{\faGithub}{github.com/solomspd}} & \href{tel:+201003435365}{\iconanot{\faPhone}{(+20)1003435365}} \\
-			\href{https://linkedin.com/in/abdelsalam-et}{\iconanot{\faLinkedin}{/in/abdelsalam-et}} & \iconanot{\faMapMarker}{Cairo, Egypt} \\
+			\href{https://linkedin.com/in/abdelsalam-et}{\iconanot{\faLinkedin}{/in/abdelsalam-et}} % & \iconanot{\faMapMarker}{Belgrade, Serbia} \\
 		\end{tabular}
 	}
 
 \end{tabularx}
 
-\begin{rsection}{\MakeUppercase{about me} \hfill \href{https://www.youtube.com/watch?v=8wwv_bj3Hvc}{Self Introduction Video \iconin{\faYoutubePlay}}}{}{}
-	As a highly motivated computer engineer, I am confident in my skills in software development and academic research proving valuable to any team.
-	% I am a highly motivated computer engineer seeking to purposefully contribute who leads by example.
-	Seeking to Create tailored solutions to novel problems.
+% \begin{rsection}{\MakeUppercase{about me} \hfill \href{https://www.youtube.com/watch?v=8wwv_bj3Hvc}{Self Introduction Video \iconin{\faYoutubePlay}}}{}{}
+\begin{rsection}{\MakeUppercase{about me} \hfill {Self Introduction Video \iconin{\faYoutubePlay}}}{}{}
+	% Results-driven computer engineer with a track record of building performant software and leading research projects from idea to deployment.
+	Results-driven computer engineer with a passion for building performant software and leading research projects from idea to deployment.
+	Passionate about solving high-impact problems by designing tailored, scalable solutions.
 \end{rsection}
 
 \begin{minipage}[t]{0.54\textwidth}
 
-	\begin{rsection}{\MakeUppercase{education}}{smallpreskip}
+	\begin{rsection}{\MakeUppercase{experience}}{smallpreskip}
+    	\begin{rcontent}[90pt]{\href{https://www.microsoft.com/}{Microsoft}}{2024-present}{Software Engineer}{Belgrade}
+    	\begin{itemize}
+            \item Developing Guest RDMA enablement on Azure Boost to deliver high-performance networking to customers.
+            \item Driving design and implementation of low-latency, reliable data paths for RDMA in the Azure cloud.
+            \item Collaborating with cross-functional teams to integrate and ship Azure networking capabilities at scale.
+            \item Aligning with stakeholders to meet performance, security, and reliability goals.
+            \item Implementing, testing, and validating industry-standard RDMA protocols in cloud environments.
+            \item Acted as DRI for customer escalations, diagnosing technical issues and coordinating resolutions to keep stakeholders satisfied.
+    	\end{itemize}
+    	\end{rcontent}
+        \divider
+		\begin{rcontent}[90pt]{\href{https://lenseda.com/}{Lensed}}{2022-2024}{Software Engineer}{San Francisco (remote)}
+		\begin{itemize}
+			\item Led a technical team to create novel solutions enabling engineer-focused tools for EDA design debugging.
+			\item Architected and implemented CAD circuit data pipelines that outperform industry solutions.
+			\item Engineered novel data representation using Rust and Python to seamlessly integrate into toolchains, complying with industry standards.
+			% \item Worked closely with industry experts to fulfill interdisciplinary requirements.
+			\item Deployed CI/CD pipelines and delivered production hybrid cloud deployments to customers.
+			% \item Leveraged LLMs and novel AI models to provide augmented insights to engineers.
+		\end{itemize}
+		\end{rcontent}
+		\divider
+		\begin{rcontent}[90pt]{\href{https://www.aucegypt.edu/}{The American University in Cairo}}{2022-2024}{Graduate teaching assistant}{Cairo}
+			\begin{itemize}
+				\item Taught CUDA and parallel programming concepts to students in GPU computing course.
+				\item Covered advanced concepts including RDMA.
+				                \item Orchestrated deployment of a Docker environment.
+			\end{itemize}
+		\end{rcontent}
+		\divider
+		% \begin{rcontent}{Undergraduate teaching assistant}{}{\href{https://www.aucegypt.edu/}{AUC}}{Cairo}
+		% 	\begin{itemize}
+		% 		\item Assembly\&Comp. Organization \calstick{2021-2022}
+		% 		\item Computer Architecture \calstick{2020-2021}
+		% 		\item Department Tutor \calstick{2019-2020}
+		% 		\item Programming Fundamentals \calstick{2018-2020}
+		% 	\end{itemize}
+		% \end{rcontent}
+		% \divider
+		% \begin{rcontent}[90pt]{\href{https://www.aucegypt.edu/}{The American University in Cairo}}{2020-2021}{Lead research assistant}{Cairo}
+		% 	\begin{itemize}
+		% 		\item Led a team of 4 to create a process that builds application-specific RISC-V-based CPUs.
+		% 	\end{itemize}
+		% \end{rcontent}
+		% \divider
+		\begin{rcontent}[90pt]{\href{https://www.tod-z.com/}{Tod-Z}}{2020-2021}{AI development intern}{Tallinn (remote)}
+			\begin{itemize}
+				\item Led AI and machine learning development.
+				\item Built entire machine learning stack from concept to training.
+				\item Deployed machine learning models on AWS.
+			\end{itemize}
+		\end{rcontent}
+		\divider
+		\begin{rcontent}[90pt]{Agile Technology}{2020}{Intern}{Cairo (remote)}
+			\begin{itemize}
+				\item Built web store using OutSystems.
+				\item Regularly communicated for quality assurance.
+			\end{itemize}
+		\end{rcontent}
 
-		\begin{rcontent}{The American University in Cairo (AUC)}{2017-2022}{}{Cairo}
+	\end{rsection}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+
+    \begin{rsection}{\MakeUppercase{education}}{smallpreskip}
+
+    \begin{rcontent}{The American University in Cairo (AUC)\\\hphantom}{2017-2022}{}{}
 			\begin{itemize}
 				\item BSc in Computer Engineering
 				\item Graduated with High Honors
@@ -38,23 +106,23 @@
 
 	\end{rsection}
 
-	\begin{rsection}{\MakeUppercase{selected projects}}{}
+    \begin{rsection}{\MakeUppercase{selected projects}}{}
 
-		\begin{rcontent}{\href{https://github.com/solomspd/senior-project}{Machine learning based decompiler \gitsep \iconin{\faGithub}}}{2021-2022}{}{}
+	        \begin{rcontent}{\href{https://github.com/solomspd/senior-project}{ML-based decompiler \gitsep \iconin{\faGithub}}}{2021-2022}{}{}
 		\begin{techtag}
 			\item \techitem{Python}
-			\item \techitem{Pytorch}
+			\item \techitem{PyTorch}
 			\item \techitem{Graph ML}
 			\item \techitem{Anaconda}
 		\end{techtag}
 			\begin{itemize}
-				\item Led team of 6 to create a transformer-based decompiler targeting Android.
+				                \item Led a team of 6 to create a machine learning-based decompiler targeting Android.
 				\item Novel tree graph generator for AST representation.
 				\item Designed to be a forensic malware tool.
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{\href{https://github.com/solomspd/POV-fan-display}{Persistance of vision display \gitsep \iconin{\faGithub}}}{2021}{}{}
+		\begin{rcontent}{\href{https://github.com/solomspd/POV-fan-display}{Persistence of vision display \gitsep \iconin{\faGithub}}}{2021}{}{}
 		\begin{techtag}
 			\item \techitem{Embedded}
 			\item \techitem{C}
@@ -69,7 +137,7 @@
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{\href{https://github.com/solomspd/solom-ML-lib}{Machine learning library from scratch \gitsep \iconin{\faGithub}}}{2021}{}{}
+		\begin{rcontent}{\href{https://github.com/solomspd/solom-ML-lib}{ML library from scratch \gitsep \iconin{\faGithub}}}{2021}{}{}
 		\begin{techtag}
 			\item \techitem{Python}
 			\item \techitem{CUDA}
@@ -77,19 +145,19 @@
 			\item \techitem{CNN}
 		\end{techtag}
 			\begin{itemize}
-				\item Created CUDA accelerated ML library.
+				                \item Created a CUDA-accelerated machine learning library.
 				\item Implemented training and inference framework for deep neural networks and convolutional neural networks.
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{\href{https://github.com/solomspd/ultrasonic-sensor}{Distance sensor from scratch \gitsep \iconin{\faGithub}}}{2021}{}{}
+		\begin{rcontent}{\href{https://github.com/solomspd/ultrasonic-sensor}{Distance sensor \gitsep \iconin{\faGithub}}}{2021}{}{}
 		\begin{techtag}
 			\item \techitem{Embedded}
 			\item \techitem{C}
 			\item \techitem{STM32}
 		\end{techtag}
 			\begin{itemize}
-				\item Built ultrasonic distance sensor with 1mm accuracy.
+				                \item Built an ultrasonic distance sensor with 1 mm accuracy from scratch.
 				\item Reverse-engineered market boards to create a more accurate sensor.
 			\end{itemize}
 		\end{rcontent}
@@ -98,80 +166,25 @@
 		\begin{techtag}
 			\item \techitem{Verilog}
 			\item \techitem{RISC-V ASM}
-			\item \techitem{Xillinix FPGA}
+			\item \techitem{FPGA}
 		\end{techtag}
 			\begin{itemize}
-				\item Implemented 6 pipeline RISC-V microarchitecture on an FPGA in Verilog fulfilling specification requirements.
+				\item Implemented a 6-stage pipeline RISC-V microarchitecture on an FPGA in Verilog that meets specification requirements.
 				\item Compiled and ran C programs on FPGA using microarchitecture.
 			\end{itemize}
 		\end{rcontent}
-		\divider
-		\begin{rcontent}{\href{https://github.com/solomspd/pacman}{Pacman clone \hspace{0.25em} \iconin{\faGithub}}}{2018}{}{}
-		\begin{techtag}
-			\item \techitem{C++}
-			\item \techitem{OOP}
-			\item \techitem{SFML}
-		\end{techtag}
-			\begin{itemize}
-				\item Recreated first 3 levels of Pacman.
-				\item Complete with level editor and online user scoreboard.
-			\end{itemize}
-		\end{rcontent}
-
-	\end{rsection}
-
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}
-
-	\begin{rsection}{\MakeUppercase{experience}}{smallpreskip}
-		\begin{rcontent}{Founding Engineer}{2022-present}{\href{https://lensed.app/}{Lensed}}{San Francisco, USA (remote)}
-		\begin{itemize}
-			\item Led engineering team of 4 to create novel solutions to develop engineer-focused tools enabling EDA design debugging.
-			\item Architected and implemented CAD circuit data pipelines that outperform industry solutions.
-			\item Engineered novel data representation using Rust and Python to seamlessly integrate into toolchains, complying with industry standards.
-			\item Worked closely with industry experts to fulfill interdisciplinary requirements.
-			\item Deployed CI/CD pipeline and delivered production hybrid cloud deployments to customers.
-			\item Leveraged LLMs and novel AI models to provide augmented insights to engineers.
-		\end{itemize}
-		\end{rcontent}
-		\divider
-		\begin{rcontent}{Graduate teaching assistant}{2022-present}{AUC}{Cairo, Egypt}
-			\begin{itemize}
-				\item Taught CUDA and parallel programming concepts to students in GPU computing course.
-				\item Covered advanced concepts including RDMA.
-				\item Orchestrated deployment of docker environment.
-			\end{itemize}
-		\end{rcontent}
-		\divider
-		\begin{rcontent}{Undergraduate teaching assistant}{}{AUC}{Cairo, Egypt}
-			\begin{itemize}
-				\item Assembly\&Comp. Organization \calstick{2021-2022}
-				\item Computer Architecture \calstick{2020-2021}
-				\item Department Tutor \calstick{2019-2020}
-				\item Programming Fundamentals \calstick{2018-2020}
-			\end{itemize}
-		\end{rcontent}
-		\divider
-		\begin{rcontent}{Lead research assistant}{2020-2021}{AUC}{Cairo, Egypt}
-			\begin{itemize}
-				\item Led a team of 4 to create a process that builds application-specific RISC-V-based CPUs.
-			\end{itemize}
-		\end{rcontent}
-		\divider
-		\begin{rcontent}{AI development intern}{2020-2021}{\href{https://www.tod-z.com/}{Tod-Z}}{Talin, Estonia (remote)}
-			\begin{itemize}
-				\item Led AI and machine learning development.
-				\item Built entire machine learning stack from concept to training to deployment on AWS.
-			\end{itemize}
-		\end{rcontent}
-		\divider
-		\begin{rcontent}{Intern}{2020}{\href{https://www.agiletz.com/}{Agile tech.}}{Netherlands (remote)}
-			\begin{itemize}
-				\item Built web store using OutSystems.
-				\item Regularly communicated for quality assurance.
-			\end{itemize}
-		\end{rcontent}
+		% \divider
+		% \begin{rcontent}{\href{https://github.com/solomspd/pacman}{Pacman clone \hspace{0.25em} \iconin{\faGithub}}}{2018}{}{}
+		% \begin{techtag}
+		% 	\item \techitem{C++}
+		% 	\item \techitem{OOP}
+		% 	\item \techitem{SFML}
+		% \end{techtag}
+		% 	\begin{itemize}
+		% 		\item Recreated first 3 levels of Pacman.
+		% 		\item Complete with level editor and online user scoreboard.
+		% 	\end{itemize}
+		% \end{rcontent}
 
 	\end{rsection}
 
@@ -180,51 +193,52 @@
 
 \begin{minipage}[t]{0.49\textwidth}
 
-	\begin{rsection}{\MakeUppercase{extracurricular}}{}
+\begin{rsection}{\MakeUppercase{Research Projects}}{}
 
-		\begin{rcontent}{ROV media head}{2017-2019}{AUC}{Cairo, Egypt}
+		\begin{rcontent}{A Neural Generation Framework for Android Decompilation}{2022}{}{}
 			\begin{itemize}
-				\item Led team of 5 to market and document Robotics club's remotely operated vehicle events.
-				\item Photographed and documented dozens of events and directed 4 marketing videos.
+				\item Completed Bachelor thesis
+				\item Created a novel method for tree graph generation.
+				\item Led a team of 4 to create a process that builds application-specific RISC-V-based CPUs.
+				\item Applied the novel method and transformer translation to Android decompilation.
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{Assistant media head}{2017}{AUC insider}{}airo, Egypt
+		        \begin{rcontent}{Application-specific CPU optimizer}{2020-2022}{}{}
 			\begin{itemize}
-				\item Lead photographer for AUC newspaper.
-				\item Published over a dozen photographs covering local events.
-			\end{itemize}
-		\end{rcontent}
-		\divider
-		\begin{rcontent}{NASA camp}{2015}{NASA}{Atlanta, USA}
-			\begin{itemize}
-				\item Won \say{Best Camper} award.
+				\item Worked on a framework to optimize unused hardware in HDL according to an application use case.
+				                \item Led a team of 3 to create an FPGA-focused optimization framework for RISC-V CPUs.
 			\end{itemize}
 		\end{rcontent}
 
 	\end{rsection}
 
-	\begin{rsection}{\MakeUppercase{publications}}{}
+	\begin{rsection}{\MakeUppercase{extracurricular}}{}
 
-		\begin{rcontent}{A Neural Generation Framework for Android Decompilation (Abdelsalam, et al.)}{2022}{(pending publication)}{}
+		\begin{rcontent}[80pt][\faBuilding]{ROV media head}{2017-2019}{AUC}{Cairo}
 			\begin{itemize}
-				\item Completed Bachelor thesis
-				\item Created a novel method for tree graph generation.
-				\item Applied the novel method and transformer translation to Android decompilation.
+				\item Led a team of 5 to market and document Robotics club's remotely operated vehicle events.
+				\item Photographed and documented dozens of events and directed 4 marketing videos.
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{\href{https://businessmonthlyeg.com/wp-content/uploads/2022/08/August-2022.pdf\#page=35}{Dive, Eat, Sleep \& Repeat}}{2022}{Busniess Monthly Magazine}{}
+		\begin{rcontent}[80pt][\faBuilding]{Assistant media head}{2017}{AUC insider}{Cairo}
+			\begin{itemize}
+				                \item Lead photographer for AUC newspaper.
+				\item Published over a dozen photographs covering local events.
+			\end{itemize}
+		\end{rcontent}
+		\divider
+		\begin{rcontent}[80pt][\faBuilding]{NASA camp}{2015}{NASA}{Atlanta}
+			\begin{itemize}
+				\item Won \say{Best Camper} award.
+			\end{itemize}
+		\end{rcontent}
+		\divider
+		\begin{rcontent}[80pt][\faBuilding]{\href{https://businessmonthlyeg.com/wp-content/uploads/2022/08/August-2022.pdf\#page=35}{Dive, Eat, Sleep \& Repeat}}{2022}{Business Monthly Magazine}{}
 			\begin{itemize}
 				\item Wrote an article on diving in the Red Sea during shark season.
 				\item Released in the 2022 August issue of Business Monthly.
-			\end{itemize}
-		\end{rcontent}
-		\divider
-		\begin{rcontent}{Application specific CPU optimizer}{2020-2022}{}{}
-			\begin{itemize}
-				\item Worked on a framework to optimize unused hardware in HDL according to application use case.
-				\item Led team of 3 to create FPGA focused optimization framework focused on RISC-V CPUs.
 			\end{itemize}
 		\end{rcontent}
 
@@ -233,10 +247,9 @@
 	\begin{rsection}{\MakeUppercase{programming languages}}{}
 		\renewcommand{\arraystretch}{1.25}
 		\begin{tabular}{ccc}
-			\lang{Python} & \lang{C++} & \lang{Rust} \\
-			\lang{C} & \lang{\LaTeX} & \lang{Verilog} \\
-			\lang{Kotlin} & \lang{Dart} & \lang{Javascript} \\
-			\lang{Bash} & \lang{SQL} & \\
+    		\lang{C} & \lang{Rust} & \lang{C++} \\
+    		\lang{Python} & \lang{Bash} & \lang{SQL} \\
+    		\lang{\LaTeX} & \lang{Verilog} \\
 		\end{tabular}
 	\end{rsection}
 
@@ -246,20 +259,20 @@
 
 	\begin{rsection}{\MakeUppercase{competitions}}{}
 
-		\begin{rcontent}{HackTrick Hackathon}{2022}{DELL EMC}{Cairo, Egypt}
+		\begin{rcontent}[80pt][\faBuilding]{HackTrick Hackathon}{2022}{DELL EMC}{Cairo}
 			\begin{itemize}
 				\item Built a reinforcement learning model to compete in material pipeline optimization challenges.
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{ICPC ACM}{2019}{AUC}{Cairo, Egypt}
+		\begin{rcontent}[80pt][\faBuilding]{ICPC ACM}{2019}{AUC}{Cairo}
 			\begin{itemize}
 				\item Entered local ICPC ACM.
 				\item Was the youngest participant.
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{Code Geist Hackathon}{2019}{Sefr Wahed}{Cairo, Egypt}
+		\begin{rcontent}[80pt][\faBuilding]{Code Geist Hackathon}{2019}{Sefr Wahed}{Cairo}
 			\begin{itemize}
 				\item Created an app and its pitch in 72 hours.
 				\item Collaborated in a team of 4.
@@ -267,14 +280,14 @@
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{MATE ROV}{2017-2019}{MATE}{Cairo, Egypt}
+		\begin{rcontent}[80pt][\faBuilding]{MATE ROV}{2017-2019}{MATE}{Cairo}
 			\begin{itemize}
 				\item Joined university's Remotely Operated Vehicle team.
 				\item Contributed to circuit and mechanical design.
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{Science Fair}{2014}{Student Expo}{Cairo, Egypt}
+		\begin{rcontent}[80pt][\faBuilding]{Science Fair}{2014}{Student Expo}{Cairo}
 			\begin{itemize}
 				\item Won first place at high school level with a 4-wheeled remote-controlled robot featuring a 3-axis arm.
 			\end{itemize}
@@ -306,28 +319,28 @@
 			\end{itemize}
 		\end{rcontent}
 		\divider
-		\begin{rcontent}{PC enthusiast}{}{}{}
+		\begin{rcontent}{Home Lab}{}{}{}
 			\begin{itemize}
-				\item Built own liquid-cooled computer.
-				\item Administering home-lab with file, surveillance, and DNS servers.
+				                \item Built my own liquid-cooled computer.
+				                \item Administered a home lab with file, surveillance, and DNS servers.
 			\end{itemize}
 		\end{rcontent}
 		\divider
 		\begin{rcontent}{3D printing enthusiast}{}{}{}
 			\begin{itemize}
-				\item Designed own 3D printed robot components.
+				\item Designed my own 3D-printed robot components.
 			\end{itemize}
 		\end{rcontent}
 		\divider
 		\begin{rcontent}{Travel}{}{}{}
 			\begin{itemize}
-				\item Traveled to most of Europe, the U.S.A, the Middle East and Africa
+				                \item Traveled to most of Europe, the U.S.A., the Middle East, and Africa.
 			\end{itemize}
 		\end{rcontent}
 
 	\end{rsection}
 
-	
+
 \end{minipage}
 
 \end{document}
